@@ -397,7 +397,7 @@ body {
       <!-- END ADDED -->
 
       <!-- ADDED: Segmentation GT-coverage evaluation -->
-      <div class="cg" id="segEvalPanel">
+      <div class="cg" id="segEvalPanel" style="display:none;">
         <h4>Segmentation Evaluation</h4>
         <input type="file" id="gtSegInput" accept=".json,.geojson" style="display:none" onchange="loadSegmentationEvalFile(this, 'gt')">
         <button class="sbtn" style="width:100%;margin-bottom:0.35rem;" onclick="document.getElementById('gtSegInput').click()">Load Pathologist GT</button>
